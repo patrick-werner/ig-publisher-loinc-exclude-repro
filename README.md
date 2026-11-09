@@ -5,6 +5,7 @@ ValueSet with LOINC filter includes and an exclude still contains the excluded
 codes. [HL7/fhir-ig-publisher#1310](https://github.com/HL7/fhir-ig-publisher/issues/1310)
 fixed excludes for THO and for code systems defined in the IG; LOINC, whose
 includes the publisher has tx.fhir.org expand, is still affected.
+Reported as [HL7/fhir-ig-publisher#1469](https://github.com/HL7/fhir-ig-publisher/issues/1469).
 
 Validation is not affected: tx.fhir.org expands the same ValueSets correctly,
 and `$validate-code` rejects the excluded codes.
