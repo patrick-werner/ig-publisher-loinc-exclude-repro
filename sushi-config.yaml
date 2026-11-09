@@ -1,0 +1,18 @@
+id: example.repro.loincexclude
+canonical: http://example.org/fhir/repro-loinc-exclude
+name: ReproLoincExclude
+title: Repro – LOINC exclude in rendered expansion
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2026+
+releaseLabel: ci-build
+license: CC0-1.0
+publisher:
+  name: Repro
+pages:
+  index.md:
+    title: Home
+menu:
+  Home: index.html
+  Artifacts: artifacts.html
