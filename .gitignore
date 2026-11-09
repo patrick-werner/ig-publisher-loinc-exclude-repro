@@ -6,3 +6,4 @@ template/
 publisher.log
 *.jar
 .DS_Store
+Requirements-fromNarrative.json
